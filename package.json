@@ -1,0 +1,23 @@
+{
+  "name": "jade",
+  "version": "0.0.1",
+  "description": "Simple app which uses jade",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shymans/Jade.git"
+  },
+  "dependencies":{
+    "express":"*",
+    "jade":"*"
+  },
+  "author": "Austin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shymans/Jade/issues"
+  },
+  "homepage": "https://github.com/shymans/Jade"
+}
