@@ -21,6 +21,17 @@ ul,li{
   overflow:hidden;
 }
 
+header{
+  margin-bottom: 20px;
+  padding:20px 10px;
+  color:#fff;
+  background: #333;
+}
+
+header h1{
+  color: #fff
+}
+
 .main-content{
   float:left;
   width: 70%;
@@ -43,6 +54,10 @@ ul,li{
   overflow:hidden;
 }
 
+.sidebar h1{
+  font-size: 20px;
+}
+
 .sidebar .block h1{
   margin:13px 10px 4px;
   padding-bottom: 10px;
@@ -62,4 +77,28 @@ footer{
   padding-top:5px;
   text-align: center;
   margin-top: 20px;
+}
+
+@media(max-width:568px){
+  header{
+    text-align: center;
+  }
+
+  .main-content{
+    float:none;
+    width:100%;
+    clear:both;
+    text-align: center;
+  }
+
+  .sidebar{
+    float:none;
+    width:100%;
+    clear:both;
+    text-align: center;
+  }
+
+  .sidebar .block{
+    margin:0;
+  }
 }
